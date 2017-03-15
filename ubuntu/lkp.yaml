@@ -16,7 +16,7 @@ metadata:
 
 install:
     git-repos:
-        - url: https://github.com/suihkulokki/lkp-tests.git
+        - url: https://git.kernel.org/pub/scm/linux/kernel/git/wfg/lkp-tests.git
     deps:
         - bc
         - build-essential
