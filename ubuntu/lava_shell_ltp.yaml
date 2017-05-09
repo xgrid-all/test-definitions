@@ -16,6 +16,9 @@ metadata:
         - vexpress-a9
         - vexpress-tc2
         - ifc6410
+        - qemu
+    environment:
+        - lava-test-shell
 
 install:
     steps:
