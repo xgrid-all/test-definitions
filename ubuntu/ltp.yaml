@@ -29,13 +29,7 @@ install:
         - './configure --prefix=$(readlink -f build)'
         - 'make all'
         - 'make SKIP_IDCHECK=1 install'
-    deps:
-        - xz-utils
-        - flex
-        - bison
-        - build-essential
-        - wget
-        - curl
+
 
 params:
     TST_CMDFILES: syscalls,mm,math,timers,fcntl-locktests,ipc,fsx,fs,hugetlb,io,nptl,pty,containers,fs_bind,filecaps,admin_tools,connectors
